@@ -44,25 +44,19 @@ const projects = [
     image: ongchen,
   },
   {
-    name: "Rebekah Gwene Bao",
-    description:
-      "With over a decade in global talent recruitment, I currently serve as an HR Associate at GeoRadar Group, concurrently pursuing a Business Administration degree at Acsenda School of Management. I also apply my psychology background as a support health worker, holding certifications in CPR, first aid, and food safety. My multifaceted experience in recruitment, administration, and healthcare equips me with a diverse skill set to drive organizational success.",
-    id: "21100521",
-    image: rebekah,
-  },
-  {
     name: "Kathleen Anne Custodio",
     description:
       "International student from Nepal, 9th term at Acsenda School of Management, pursuing an accounting degree. Passionate about web-based projects and aspiring to contribute to the evolving digital landscape.",
     id: "20000315",
     image: kathleen,
   },
+  
   {
-    name: "Nicole Dizon ",
+    name: "Nadia I. Luna L.",
     description:
-      "I hold a Bachelor's degree in IT from STI College in the Philippines and have amassed 7 years of experience as an IT engineer in a prestigious government organization. Currently graduating from Acsenda School of Management, I excel as an Area Leader at McDonald's, showcasing leadership skills and receiving accolades for excellence. My journey from the Philippines to Canada has enriched me culturally, enhancing my communication abilities and fostering a unique set of skills for connecting with diverse backgrounds.",
-    id: "2199024",
-    image: nicole,
+      "Greetings! I'm Nadia, a Mexican residing in Vancouver for 6 years and currently a Business Management student at Acsenda School of Management. Excited to share my passion for Workplace Safety and Wellness on this amazing Wiki platform, fostering collective growth through knowledge sharing.",
+    id: "2001981",
+    image: nadia,
   },
   {
     name: "Maria Tabares",
@@ -72,12 +66,21 @@ const projects = [
     image: maria,
   },
   {
-    name: "Nadia I. Luna L.",
+    name: "Nicole Dizon ",
     description:
-      "Greetings! I'm Nadia, a Mexican residing in Vancouver for 6 years and currently a Business Management student at Acsenda School of Management. Excited to share my passion for Workplace Safety and Wellness on this amazing Wiki platform, fostering collective growth through knowledge sharing.",
-    id: "2001981",
-    image: nadia,
+      "I hold a Bachelor's degree in IT from STI College in the Philippines and have amassed 7 years of experience as an IT engineer in a prestigious government organization. Currently graduating from Acsenda School of Management, I excel as an Area Leader at McDonald's, showcasing leadership skills and receiving accolades for excellence. My journey from the Philippines to Canada has enriched me culturally, enhancing my communication abilities and fostering a unique set of skills for connecting with diverse backgrounds.",
+    id: "2199024",
+    image: nicole,
   },
+  {
+    name: "Rebekah Gwene Bao",
+    description:
+      "With over a decade in global talent recruitment, I currently serve as an HR Associate at GeoRadar Group, concurrently pursuing a Business Administration degree at Acsenda School of Management. I also apply my psychology background as a support health worker, holding certifications in CPR, first aid, and food safety. My multifaceted experience in recruitment, administration, and healthcare equips me with a diverse skill set to drive organizational success.",
+    id: "21100521",
+    image: rebekah,
+  },
+ 
+  
 ];
 
 const contents = [
@@ -537,7 +540,7 @@ const blogData = [
   {
     id: 8,
     title: "What are the OHS risks in this area?",
-    image:risk,
+    image: risk,
     author: "Nicole",
     authorPic: "",
     published_date: "2023-10-01",
@@ -691,8 +694,71 @@ const blogData = [
     authorPic: nadia,
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The interventions and training that can be carried out in this area are the following:Interventions: 1.  Proper Insulation and Protective ClothingEnsure workers are provided with and encouraged to use layered protective clothing for insulation (American Conference of Governmental Industrial Hygienists [ACGIH], 2021).Physical Activity and Controlled Exposure Encourage physical activity to generate body heat. Implement work/rest schedules to manage exposure to cold effectively (Occupational Health and Safety Regulations, British Columbia, 2021).Heated Warming SheltersProvide access to heated warming shelters based on the severity of exposure.Workers should use shelters when signs of cold stress are noticed (Occupational Health and Safety Regulations, British Columbia, 2021).Training: Awareness of Cold Stress SymptomsConduct training to increase awareness of signs and symptoms of cold stress (Occupational Safety and Health Administration [OSHA], 2021). Ensure workers and supervisors can recognize adverse effects of exposure to cold (World Health Organization [WHO], 2021). Safe Work Practices Educate workers about safe work practices in cold environments.Provide guidelines on avoiding accidents, such as proper clothing, physical activity, and rest (Occupational Health and Safety Regulations, British Columbia, 2021)Physical Fitness RequirementsCommunicate the physical fitness requirements for work in cold conditions.Emphasize the importance of maintaining good physical condition to cope with the challenges of cold environments (Occupational Health and Safety Administration [OSHA], 2021).Emergency Procedures Provide training on emergency procedures in case of cold-related injuries.Ensure workers know how to respond to situations like frostbite or hypothermia (Occupational Health and Safety Administration [OSHA], 2021).",
+    content: (
+      <div className="text-[#bec6c7]">
+        <h1 className="text-center text-lg font-bold">Interventions</h1>
+        <ul>
+          <li className="mb-4">
+            <span className="text-orange">
+              Proper Insulation and Protective Clothing
+            </span>{" "}
+            Ensure workers are provided with and encouraged to use layered
+            protective clothing for insulation (American Conference of
+            Governmental Industrial Hygienists [ACGIH], 2021).
+          </li>
+          <li className="mb-4">
+            <span className="text-orange">
+              Physical Activity and Controlled Exposure
+            </span>{" "}
+            Encourage physical activity to generate body heat. Implement
+            work/rest schedules to manage exposure to cold effectively
+            (Occupational Health and Safety Regulations, British Columbia,
+            2021).
+          </li>
+          <li className="mb-8">
+            <span className="text-orange">Heated Warming Shelters</span> Provide
+            access to heated warming shelters based on the severity of
+            exposure.Workers should use shelters when signs of cold stress are
+            noticed (Occupational Health and Safety Regulations, British
+            Columbia, 2021).
+          </li>
+        </ul>
+        <h1 className="text-center text-lg font-bold">Training </h1>
+        <ul>
+        <li className="mb-4">
+          <span className="text-orange">
+            Awareness of Cold Stress Symptoms{" "}
+          </span>
+          Conduct training to increase awareness of signs and symptoms of cold
+          stress (Occupational Safety and Health Administration [OSHA], 2021).
+          Ensure workers and supervisors can recognize adverse effects of
+          exposure to cold (World Health Organization [WHO], 2021).{" "}
+        </li>
+
+        <li className="mb-4">
+          <span className="text-orange">Safe Work Practices </span>Educate
+          workers about safe work practices in cold environments.Provide
+          guidelines on avoiding accidents, such as proper clothing, physical
+          activity, and rest (Occupational Health and Safety Regulations,
+          British Columbia, 2021){" "}
+        </li>
+
+        <li className="mb-4">
+          <span className="text-orange">Physical Fitness Requirements </span>
+          Communicate the physical fitness requirements for work in cold
+          conditions.Emphasize the importance of maintaining good physical
+          condition to cope with the challenges of cold environments
+          (Occupational Health and Safety Administration [OSHA], 2021).
+        </li>
+        <li className="mb-4">
+          <span className="text-orange">Emergency Procedures </span>Provide
+          training on emergency procedures in case of cold-related
+          injuries.Ensure workers know how to respond to situations like
+          frostbite or hypothermia (Occupational Health and Safety
+          Administration [OSHA], 2021).
+        </li></ul>
+      </div>
+    ),
   },
   {
     id: 15,
@@ -702,8 +768,17 @@ const blogData = [
     authorPic: nadia,
     published_date: "2023-10-01",
     reading_time: "1 minutes",
-    content:
-      "While there are no specific training requirements explicitly mentioned in the Occupational Health and Safety (OHS) law, it is recommended that workers and supervisors involved in work in cold environments receive training (Canada Labour Code, Part II, 1985).",
+    content: (
+      <div className="text-[#bec6c7]">
+        <p>
+          <span className="ml-12">While </span>there are no specific training
+          requirements explicitly mentioned in the Occupational Health and
+          Safety (OHS) law, it is recommended that workers and supervisors
+          involved in work in cold environments receive training (Canada Labour
+          Code, Part II, 1985).
+        </p>
+      </div>
+    ),
   },
   {
     id: 16,
@@ -714,8 +789,53 @@ const blogData = [
     authorPic: nadia,
     published_date: "2023-10-01",
     reading_time: "6 minutes",
-    content:
-      "The information provided underscores the critical importance of implementing comprehensive measures to ensure the safety and well-being of workers in cold conditions, particularly in Vancouver, Canada. The adoption of the American Conference of Governmental Industrial Hygienists (ACGIH) Threshold Limit Values® for cold stress, as outlined in the British Columbia Occupational Health and Safety Regulations, sets a standard for addressing the challenges posed by low temperatures, wind, and wetness. The potential legal consequences for breaching the Occupational Health and Safety (OHS) law, including criminal offenses under Part II of the Canada Labour Code, highlight the gravity of ensuring compliance with health and safety standards. It is clear that the manifestation of risks in the workplace due to cold conditions, such as hypothermia and frostbite, can be life-threatening, emphasizing the need for effective interventions.\n\nThe recommended interventions, ranging from proper insulation and clothing to physical activity and the provision of heated warming shelters, align with best practices outlined by authoritative sources such as the Occupational Safety and Health Administration (OSHA) and the World Health Organization (WHO). Training and awareness programs are crucial components to empower workers and supervisors with the knowledge needed to recognize and respond to cold stress symptoms. While the OHS law in Vancouver may not explicitly mandate training, the reflective integration of training into workplace practices is evident. Employers are encouraged, if not obligated, to educate workers on safe practices, physical fitness requirements, and emergency procedures. The absence of specific training requirements in the law does not diminish the importance of education in preventing accidents and ensuring a safe working environment in cold conditions.\n\nIn conclusion, the provided information emphasizes a holistic approach to worker safety in cold conditions, encompassing legal compliance, risk mitigation through interventions, and the empowerment of workers through training and awareness programs. Employers in Vancouver are positioned to foster a culture of safety that goes beyond mere compliance, actively promoting the well-being of their workforce in challenging environmental conditions.",
+    content: (
+      <div className="text-[#bec6c7]">
+        <p className="mb-4">
+          <span className="ml-12">The</span> information provided underscores
+          the critical importance of implementing comprehensive measures to
+          ensure the safety and well-being of workers in cold conditions,
+          particularly in Vancouver, Canada. The adoption of the American
+          Conference of Governmental Industrial Hygienists (ACGIH) Threshold
+          Limit Values® for cold stress, as outlined in the British Columbia
+          Occupational Health and Safety Regulations, sets a standard for
+          addressing the challenges posed by low temperatures, wind, and
+          wetness. The potential legal consequences for breaching the
+          Occupational Health and Safety (OHS) law, including criminal offenses
+          under Part II of the Canada Labour Code, highlight the gravity of
+          ensuring compliance with health and safety standards. It is clear that
+          the manifestation of risks in the workplace due to cold conditions,
+          such as hypothermia and frostbite, can be life-threatening,
+          emphasizing the need for effective interventions.
+        </p>
+        <p className="mb-4">
+          <span className="ml-12">The</span> recommended interventions, ranging
+          from proper insulation and clothing to physical activity and the
+          provision of heated warming shelters, align with best practices
+          outlined by authoritative sources such as the Occupational Safety and
+          Health Administration (OSHA) and the World Health Organization (WHO).
+          Training and awareness programs are crucial components to empower
+          workers and supervisors with the knowledge needed to recognize and
+          respond to cold stress symptoms. While the OHS law in Vancouver may
+          not explicitly mandate training, the reflective integration of
+          training into workplace practices is evident. Employers are
+          encouraged, if not obligated, to educate workers on safe practices,
+          physical fitness requirements, and emergency procedures. The absence
+          of specific training requirements in the law does not diminish the
+          importance of education in preventing accidents and ensuring a safe
+          working environment in cold conditions.
+        </p>
+        <p className="mb-4">
+          <span className="ml-12">In</span> conclusion, the provided information
+          emphasizes a holistic approach to worker safety in cold conditions,
+          encompassing legal compliance, risk mitigation through interventions,
+          and the empowerment of workers through training and awareness
+          programs. Employers in Vancouver are positioned to foster a culture of
+          safety that goes beyond mere compliance, actively promoting the
+          well-being of their workforce in challenging environmental conditions.
+        </p>
+      </div>
+    ),
   },
 ];
 
