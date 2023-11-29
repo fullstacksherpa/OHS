@@ -26,7 +26,6 @@ import {
   law,
   coldrisk
 } from "../assets";
-import PDFViewer from "../components/Pdf";
 
 export const navLinks = [
   {
