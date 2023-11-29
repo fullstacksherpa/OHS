@@ -4,6 +4,7 @@ import { blogData } from "../constants";
 import { useParams } from "react-router-dom";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { threetable } from "../assets";
 
 
 const SingleBlog = () => {
@@ -19,9 +20,13 @@ const SingleBlog = () => {
     image,
     author,
     published_date,
+    tabletwo,
     reading_time,
+    table,
     content,
     authorPic,
+    tablethree,
+    tablefour,
   } = blog;
   return (
     <>
@@ -54,12 +59,15 @@ const SingleBlog = () => {
             {reading_time}
           </p>
           <p className="text-base text-gray-500 mb-12">{content}</p>
+          {table && <div>{table}</div>}
+          {tabletwo && <div>{tabletwo}</div>}
+          {tablethree && <div>{tablethree}</div>}
+          {tablefour && <div>{tablefour}</div>}
         </div>
-      
       </div>
       <div className="fixed bottom-12 left-12 transition-transform transform hover:text-orange hover:scale-125">
         <Link to="/#home">
-          <RiArrowGoBackFill className="text-5xl text-white cursor-pointer"/>
+          <RiArrowGoBackFill className="text-5xl text-white cursor-pointer" />
         </Link>
       </div>
     </>

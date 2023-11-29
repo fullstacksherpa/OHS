@@ -16,6 +16,17 @@ import agree from './agree.jpg'
 import men from './men.jpg'
 import reference from './reference.jpg'
 import risk from './risk.jpeg'
+import onetable from './onetable.png'
+import twotable from './twotable.png'
+import threetable from './threetable.png'
+import fourtable from './fourtable.png'
+import ohs from './ohs.png'
+import nadiaevaluation from './nadiaevaluation.png'
+import evaluationpic from './evaluationpic.jpg'
+import accident from './accident.jpg'
+import awareness from './awareness.png'
+import law from './law.png'
+import coldrisk from './coldrisk.png'
 
 
 export {
@@ -36,5 +47,17 @@ export {
   agree,
   men,
   reference,
-  risk
+  risk,
+  onetable,
+  twotable,
+  threetable,
+  fourtable,
+  ohs,
+  nadiaevaluation,
+  evaluationpic,
+  accident,
+  awareness,
+  law,
+  coldrisk
+
 };
