@@ -4,7 +4,7 @@ import { blogData } from "../constants";
 import { useParams } from "react-router-dom";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import { threetable } from "../assets";
+
 
 
 const SingleBlog = () => {
