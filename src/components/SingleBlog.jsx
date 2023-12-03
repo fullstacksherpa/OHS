@@ -5,8 +5,6 @@ import { useParams } from "react-router-dom";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-
-
 const SingleBlog = () => {
   const { id } = useParams();
   const blog = blogData.find((blog) => blog.id === parseInt(id));
@@ -27,6 +25,7 @@ const SingleBlog = () => {
     authorPic,
     tablethree,
     tablefour,
+    restOfContent,
   } = blog;
   return (
     <>
@@ -63,6 +62,7 @@ const SingleBlog = () => {
           {tabletwo && <div>{tabletwo}</div>}
           {tablethree && <div>{tablethree}</div>}
           {tablefour && <div>{tablefour}</div>}
+          {restOfContent && <div>{restOfContent}</div>}
         </div>
       </div>
       <div className="fixed bottom-12 left-12 transition-transform transform hover:text-orange hover:scale-125">
