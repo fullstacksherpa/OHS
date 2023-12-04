@@ -28,8 +28,8 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold sm-text-[24px] text-[16px]'>{name}</h3>
-          <p className='mt-2 text-secondary sm-text-[14px] text-[9px]'>{description}</p>
+          <h3 className='text-white font-bold sm:text-[24px] text-[16px]'>{name}</h3>
+          <p className='mt-2 text-secondary sm:text-[18px] text-[12px]'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
