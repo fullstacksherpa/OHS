@@ -16,7 +16,7 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full group'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full  group'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -24,12 +24,12 @@ const ProjectCard = ({
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl '
           />
-           <div className="hidden lg:inline-block absolute w-full h-full bg-green-200/50 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+           <div className="lg:inline-block absolute w-full h-full bg-green-200/50 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <h3 className='text-white font-bold sm-text-[24px] text-[16px]'>{name}</h3>
+          <p className='mt-2 text-secondary sm-text-[14px] text-[9px]'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

@@ -108,7 +108,7 @@ const projects = [
 const blogData = [
   {
     id: 3,
-    title: "What is the issue important?",
+    title: "Why is the Issue Important?",
     image: coldhand,
     author: "Maria",
     authorPic: maria,
@@ -322,7 +322,7 @@ const blogData = [
   },
   {
     id: 2,
-    title: "What is the Implication of breach of these OHS Laws and what are the sanctions?",
+    title: "What are the Implications of breach of these OHS Laws and what are the sanctions?",
     image: kathleenbanner,
     author: "Kathleen",
     authorPic: kathleen,
@@ -827,7 +827,7 @@ Recognizing and preparing for cold conditions requires a combination of vigilanc
     reading_time: "6 minutes",
     content: (
       <div className="text-[#bec6c7]">
-      <h1 className="text-orange text-3xl underline py-4">Rebekha Bao</h1>
+      <h1 className="text-orange text-3xl underline py-4">Rebekah Bao</h1>
       <p>
       <span className="block pb-4">Health and Safety is everyone’s responsibility. </span>
 

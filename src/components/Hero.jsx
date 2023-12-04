@@ -19,7 +19,7 @@ const Hero = () => {
             Freeze the Risks,<span className='text-orange'> Heat up Safety</span>
           </h1>
           <p className={`${styles.heroSubText} mt-8 text-white-100`}>
-          explore WorkSafe for a  winter of workplace safety  
+          Explore WorkSafe for a  Winter of Workplace Safety  
           </p>
         </div>
       </div>
